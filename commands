@@ -1,0 +1,15 @@
+1. pip install fast api  (install fast api)
+
+2. pip install uvicorn (install fast api server)
+
+3. python -m venv venv   (create virtual environment)
+
+4. .\venv\Scripts\Activate (activate virtual environment)
+
+5. pip freeze > requirements.txt (take notes for packages used in this project)
+
+6. python run.py (run the fastapi application)
+
+7. uvicorn app.main:app --reload (reload the fastapi application)
+
+8. pip install mysql-connector-python sqlalchemy (install mySQL db packages)
